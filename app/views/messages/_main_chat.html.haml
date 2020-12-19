@@ -1,0 +1,38 @@
+.Main
+  .Main-header
+    .Main-header_group
+      .Main-header_groupname
+        a
+      %Ul.Main-header_memberList
+        Member : 
+        %Li.Main-header_member
+          yamashita
+    = link_to "#", class:"Main-header_editButton" do
+      Edit
+  .Messages
+    .MesssageBox
+      .MessageInfo
+        .MessageInfo_userName
+        yamashita
+        .MessageInfo_date
+          2020年12月18日　14時44分
+      .Message
+        %p.Message_content
+          こんにちは
+    .MesssageBox
+      .MessageInfo
+        .MessageInfo_userName
+        yamashita
+        .MessageInfo_date
+          2020年12月18日 14時45分
+      .Message
+        %p.Message_content
+          おはようございます
+  .Footer
+    %form.Form
+      .Form__contents
+        %input.Form__inputContent{type: 'text', placeholder: 'type a message'}
+        %label.Form__inputImage
+          = icon('far', 'image', class: 'Form__icon')
+          %input.Hidden{type: 'file'}
+      %input.Form__submit{type: 'submit', value: 'Send'}
