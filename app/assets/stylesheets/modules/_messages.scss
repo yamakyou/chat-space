@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-.Wrapper {
+.wrapper {
   display: flex;
   height: 100vh;
 }
@@ -93,18 +93,22 @@
 
 .Group {
   margin: 20px 20px 40px;
+
+  a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+  }
 }
 
 .Group_name {
   margin-bottom: 5px;
   font-size: 15px;
-  color: #ffffff;
   display: block;
 }
 
 .Group_message {
   font-size: 11px;
-  color: #ffffff;
 }
 
 .Main-header_group {
