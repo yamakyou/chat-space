@@ -42,9 +42,9 @@
 
 .Messages {
   background-color: #fafafa;
-  height: calc(100vh - 190px);
   box-sizing: border-box;
   padding: 35px 40px 0;
+  height: calc(100vh - 190px);
   overflow: scroll;
 }
 
@@ -144,7 +144,7 @@
   text-decoration: none;
 }
 
-.MesssageBox {
+.MessageBox {
   margin-bottom: 46px;
 }
 
@@ -152,13 +152,13 @@
   display: flex;
 }
 
-.MessageInfo_userName {
+.MessageInfo__userName {
   color: #434a54;
   font-size:16px;
   font-weight: bold;
 }
 
-.MessageInfo_date {
+.MessageInfo__date {
   color: #999999;
   font-size: 12px;
   padding-left: 10px;
